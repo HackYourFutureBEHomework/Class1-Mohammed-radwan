@@ -1,0 +1,86 @@
+﻿1. Easy: Select all the customers from Brussels
+
+select * 
+from customers
+where city='Brussels'
+
+2. Easy: Select all the invoices of more than 10 euros
+
+select * 
+from invoices
+where Total > 10
+
+3. Intermediate: Select all the tracks of the Rock genre ordered by track name
+
+select *
+from tracks
+left join genres on tracks.GenreId=genres.GenreId
+where genres.Name='Rock'
+
+4. Intermediate: Select all the albums of R.E.M.
+
+select *
+from albums
+left join artists on albums.ArtistId = artists.ArtistId
+where artists.name='R.E.M.'
+
+5. Very Hard: Select all the invoices of which an album of U2 was bought
+
+select *
+from invoices
+left join invoice_items on invoices.InvoiceId =  invoice_items.InvoiceId
+left join tracks on invoice_items.TrackId = tracks.TrackId
+left join albums on tracks.AlbumId = albums.AlbumId
+left join artists on albums.ArtistId = artists.ArtistId
+where invoice_items.Quantity=1 and artists.Name = 'U2'
+
+6. Very Hard: Select all the customers who bought for more than 10€ on one invoice
+
+select *
+from customers
+left join invoices on invoices.CustomerId = customers.CustomerId 
+where invoices.Total>10 order by total
+
+7. Easy: How many tracks are in the database?
+
+select count (trackId)
+from tracks
+
+
+8. Easy: Select all the different countries of the clients?
+
+select distinct country
+from customers
+
+9. Intermediate: What is the total cost of the most expensive invoice (2 solutions possible)?
+
+sol-1-:
+select max (Total)
+from invoices
+
+sol-2-:
+select total
+from invoices order by  total desc
+limit 1
+
+10. Intermediate: What is the average total cost of an invoice?
+
+select avg(total) as Total_average
+from invoices
+
+11. Hard: How many tracks are in the database of the band Pearl Jam?
+
+select count(trackid)
+from tracks
+left join albums on tracks.AlbumId=albums.AlbumId
+left join artists on albums.ArtistId=artists.ArtistId
+where artists.Name='Pearl Jam'
+
+12. Extremely hard: Select all the albums that have tracks of at least two different genres 
+
+select albums.AlbumId,albums.Title
+from albums
+left join tracks on albums.AlbumId = tracks.AlbumId
+left join genres on tracks.GenreId = genres.GenreId
+group by albums.albumid
+having count(distinct genres.GenreId )> 1
