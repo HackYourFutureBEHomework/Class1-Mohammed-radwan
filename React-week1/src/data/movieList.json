@@ -1,0 +1,43 @@
+[
+{"name":"The Godfather","date":"1972","Rated":"R","released":" 1972","duration":"175 min","genres":["Crime, Drama"],"director":"Francis Ford Coppola","Writer":"Mario Puzo (screenplay by), Francis Ford Coppola (screenplay by), Mario Puzo (based on the novel by)","actors":["Marlon Brando, Al Pacino, James Caan, Richard S. Castellano"],"description":"The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.","Language":"English, Italian, Latin","Country":"USA","Awards":"Won 3 Oscars. Another 24 wins & 28 nominations.","imgSrc":"https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"9.2/10"},{"Source":"Rotten Tomatoes","Value":"98%"},{"Source":"Metacritic","Value":"100/100"}],"Metascore":"100","imdbRating":"9.2","imdbVotes":"1,370,696","imdbID":"tt0068646","Type":"movie","DVD":"09 Oct 2001","BoxOffice":"N/A","Production":"Paramount Pictures","Website":"http://www.thegodfather.com","Response":"True"}
+,{"name":"The Shawshank Redemption","Year":"1994","Rated":"R","released":"1994","duration":"142 min","genres":["Drama"],"director":"Frank Darabont","Writer":"Stephen King (short story \"Rita Hayworth and Shawshank Redemption\"), Frank Darabont (screenplay)","actors":["Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler"],"description":"Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.","Language":"English","Country":"USA","Awards":"Nominated for 7 Oscars. Another 19 wins & 32 nominations.","imgSrc":"https://images-na.ssl-images-amazon.com/images/I/519NBNHX5BL._SY445_.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"9.3/10"},{"Source":"Rotten Tomatoes","Value":"91%"},{"Source":"Metacritic","Value":"80/100"}],"Metascore":"80","imdbRating":"9.3","imdbVotes":"1,991,481","imdbID":"tt0111161","Type":"movie","DVD":"27 Jan 1998","BoxOffice":"N/A","Production":"Columbia Pictures","Website":"N/A","Response":"True"}
+,{"name":"Léon: The Professional","Year":"1994","Rated":"R","released":"1994","duration":"110 min","genres":["Crime, Drama, Thriller"],"director":"Luc Besson","Writer":"Luc Besson","actors":["Jean Reno, Gary Oldman, Natalie Portman, Danny Aiello"],"description":"Mathilda, a 12-year-old girl, is reluctantly taken in by Léon, a professional assassin, after her family is murdered. Léon and Mathilda form an unusual relationship, as she becomes his protégée and learns the assassin's trade.","Language":"English, Italian, French","Country":"France","Awards":"5 wins & 11 nominations.","imgSrc":"https://m.media-amazon.com/images/M/MV5BZDAwYTlhMDEtNTg0OS00NDY2LWJjOWItNWY3YTZkM2UxYzUzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.6/10"},{"Source":"Rotten Tomatoes","Value":"72%"},{"Source":"Metacritic","Value":"64/100"}],"Metascore":"64","imdbRating":"8.6","imdbVotes":"871,485","imdbID":"tt0110413","Type":"movie","DVD":"15 Aug 2000","BoxOffice":"N/A","Production":"Columbia Pictures","Website":"N/A","Response":"True"}
+,{"name":"Sweet November","Year":"2001","Rated":"PG-13","released":"2001","duration":"119 min","genres":["Drama, Romance"],"director":"Pat O'Connor","Writer":"Herman Raucher, Paul Yurick (story), Kurt Voelker (story), Kurt Voelker (screenplay)","actors":["Keanu Reeves, Charlize Theron, Jason Isaacs, Greg Germann"],"description":"A workaholic executive, and an unconventional woman agree to a personal relationship for a short period. In this short period she changes his life.","Language":"English","Country":"USA","Awards":"3 nominations.","imgSrc":"https://m.media-amazon.com/images/M/MV5BMTc4NjYzNzkzNl5BMl5BanBnXkFtZTYwNjg1ODc5._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.7/10"},{"Source":"Rotten Tomatoes","Value":"15%"},{"Source":"Metacritic","Value":"27/100"}],"Metascore":"27","imdbRating":"6.7","imdbVotes":"77,695","imdbID":"tt0230838","Type":"movie","DVD":"24 Jul 2001","BoxOffice":"$24,418,719","Production":"Warner Bros. Pictures","Website":"http://www.sweetnovember.net","Response":"True"}
+,{
+    "name": "Apocalypto",
+    "released": 2006,
+    "duration": 139,
+    "genres" : [
+        "Action",
+        "Adventure",
+        "Drama"
+    ],
+    "director": "Mel Gibson",
+    "actors": [
+        "Rudy Youngblood",
+        "Dalia Hernandez",
+        "Jonathan Brewer",
+        "Morris Birdyellowhead"
+    ],
+    "description": "As the Mayan kingdom faces its decline, the rulers insist the key to prosperity is to build more temples and offer human sacrifices. Jaguar Paw, a young man captured for sacrifice, flees to avoid his fate.",
+    "imgSrc" : "https://images-na.ssl-images-amazon.com/images/M/MV5BNTM1NjYyNTY5OV5BMl5BanBnXkFtZTcwMjgwNTMzMQ@@._V1_SX300.jpg"
+},{
+    "name": "Pulp fiction",
+    "released": 1994,
+    "duration": 154,
+    "genres" : [
+        "Crime",
+        "Drama"
+    ],
+    "director": "Quentin Tarantino",
+    "actors": [
+        "Tim Roth", 
+        "Amanda Plummer", 
+        "Laura Lovelace", 
+        "John Travolta"
+    ],
+    "description": "The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "imgSrc" : "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5MDc3NjE@._V1_SX300.jpg"
+  
+}
+]
