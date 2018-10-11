@@ -38,6 +38,8 @@
   list-style: none;
   text-decoration-line: line-through;
   color: red;
+  width: 20rem;
+
 
 }
 .todoOpject:hover{
@@ -48,9 +50,12 @@
   font-size: 1.3rem;
   flood-color: #282c34;
   list-style: none;
+  width: 20rem;
+
 }
 .todoOpject{
   display: flex;
+
 }
 /* input:checked + label+li[class="itemDescription"]{
   text-decoration-line: line-through;
@@ -60,11 +65,31 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  /* align-items: center; */
+  /* text-align: center; */
   background-color: aliceblue;
   width: 40%;
   margin: 0 auto
 }
 h1,h3{
-color: rgb(17, 17, 90);}
+color: rgb(17, 17, 90);
+  text-align: center;
+
+}
+
+.hideCompleted{
+  display: inline;
+  align-items: flex-start;
+}
+span{
+  display: inline;
+  font-size: 1.3rem;
+}
+.hideButton{
+  margin-left: 2.4rem
+}
+.searchInput{
+  width: 40%;
+  height: 1.5rem;;
+  margin-left: 2.6rem;
+}

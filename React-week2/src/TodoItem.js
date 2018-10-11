@@ -6,43 +6,46 @@ class TodoOpject extends Component{
     render(){
         const todos=this.props.todos
         const changeStatus=this.props.changeStatus
-        const completedItems=this.props.completedItems
-        return(
+        const deleteItem=this.props.deleteItem
+            return(
             <div className="todoOpject">
                 <input type="checkbox" className="itemCheckbox" 
-                       defaultChecked={todos.done? "checked":""} 
-                       onClick={()=>{changeStatus(todos.id)}} 
-                       onChange={()=>{completedItems()}}>
+                       checked={todos.done? "checked":""} 
+                       onChange={()=>{changeStatus(todos.id)}} >
                 </input>
-                <li className={todos.done? "itemDescription":"notDone"}>{todos.description}</li>
+
+                <li className={todos.done? "itemDescription":"notDone"}>{todos.description}
+                </li>
+                <button type="button" className="deleteButton"
+                         onClick={()=>{deleteItem(todos.id)}}>Delete
+                </button>
             </div>
 
         )
     }
-
-
-                                                                             
+                                                                         
 }
 
  class TodoItem extends Component{
     render(){
-        const todoItem=this.props.myList.map((todos,index)=>{
+        const todoItem=this.props.myFilteredItems.map((todos,index)=>{
         return(
             <TodoOpject 
-                myList={this.props.myList}
                 key={index}
                 todos={todos}
                 changeStatus={this.props.changeStatus}
-                completedItems={this.props.completedItems}
+                deleteItem={this.props.deleteItem}
             />   
         )
     })
     return(
         <div>
+
         <ul>
             {todoItem}
             
         </ul>
+
         </div>
     )
     }
