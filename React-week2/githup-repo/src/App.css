@@ -1,0 +1,41 @@
+.forked {
+    text-decoration: underline;
+}
+.singelRepo{
+    display: flex;
+    width: 70%;
+    margin: 0.5rem auto;
+}
+.buttonClass{
+    width: 20%;
+    height: 2.3rem;
+    margin: 0 auto;
+
+}
+.repoName{
+    flex: 25%;
+}
+
+.extraInfo{
+    background-color: aliceblue;
+    width: 50%;
+    margin-left: 20rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+ .extaItems{
+    list-style: none;
+    border-bottom: #d0cdea solid;
+    padding: 0.5rem;
+} 
+.extraInfoSpan{
+    color: darkblue;
+    font-size: 1.1rem;
+    width: 20%;
+    display: inline-block;
+}
+.extraspan2{
+    display: inline-block;
+    width: 60%;
+}
